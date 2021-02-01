@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t9E6KpdDZqVQbFbqdeyvCues0wsl3LB7yp2gFS8MEHRJuQIdGDrlDFkUVLzf8R7BRkJs9MfpHyBsYP5YMonqBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Masivian_Roulette\\Masivian_Roulette\\Masivian_Roulette.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
