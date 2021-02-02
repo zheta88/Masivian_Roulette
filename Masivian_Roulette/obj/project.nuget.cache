@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fhvRLM25Ouxv+CWslmNrTTuC+a2uJpV5PW3+VPE4UD+w9Ax93h7KA7cOmcRUIR//csVIuI5m/u/nZycPpDnNlQ==",
+  "dgSpecHash": "QrQDx46EJnJDFZOeyAx9DOmogd2bLWwYQJyqtDYjnqudFOHqB632UlXBGe0aKpOy7UHmVIvNxrf9Su2NihSVhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Masivian_Roulette\\Masivian_Roulette\\Masivian_Roulette.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

@@ -8,5 +8,7 @@ namespace Masivian_Roulette.Models
     public class Roulette
     {
         public string Name { get; set; }
+        public bool? Status { get; set; }
+       
     }
 }

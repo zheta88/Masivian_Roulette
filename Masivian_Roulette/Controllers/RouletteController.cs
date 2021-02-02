@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using StackExchange.Redis;
 using System;
 using Masivian_Roulette.Models;
+using Newtonsoft.Json;
 
 namespace Masivian_Roulette.Controllers
 {
@@ -47,7 +48,8 @@ namespace Masivian_Roulette.Controllers
                 string oneChar = chars.Substring(randomNumber-1,1);
                 idRoullete += oneChar;
             }
-            _database.StringSet(idRoullete, rouleteMod.Name);
+            rouleteMod.Status = false;
+            _database.StringSet(idRoullete, JsonConvert.SerializeObject(rouleteMod));
             return idRoullete;
         }
 
