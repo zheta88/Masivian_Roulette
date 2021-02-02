@@ -5,6 +5,7 @@ using StackExchange.Redis;
 using System;
 using Masivian_Roulette.Models;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace Masivian_Roulette.Controllers
 {
@@ -26,13 +27,7 @@ namespace Masivian_Roulette.Controllers
             return _database.StringGet(key);
 
         }
-        /*
-        [HttpPost]
-        public void Post([FromBody] KeyValuePair<string, string>keyValue)
-        {
-            //_database.StringSet(keyValue.Key, keyValue.Value);
-
-        }*/
+  
         [HttpPost]
         [Route("post")]
         public string createRoulette([FromBody] Roulette rouleteMod)
@@ -53,5 +48,25 @@ namespace Masivian_Roulette.Controllers
             return idRoullete;
         }
 
+        [HttpGet]
+        [Route("get")]
+        public string ListRouletteGet()
+        {
+            var result = new List<KeyValuePair<string, object>>();
+            var endpoints = _database.Multiplexer.GetEndPoints();
+            var server = _database.Multiplexer.GetServer(endpoints.First());
+
+            string response = "";
+            var keys = server.Keys(_database.Database);
+            foreach (string key in keys)
+            {
+                Console.WriteLine(key);
+                response += _database.StringGet(key) + ",";
+                
+            }
+            response = response.Substring(0, response.Length - 2);
+            return "[" + response + "]";
+        }
+       
     }
 }

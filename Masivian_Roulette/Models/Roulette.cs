@@ -7,6 +7,7 @@ namespace Masivian_Roulette.Models
 {
     public class Roulette
     {
+        public string key { get; set; }
         public string Name { get; set; }
         public bool? Status { get; set; }
        
